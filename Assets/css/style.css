@@ -1,31 +1,78 @@
-
-
-footer {
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #f5f5f5;
-    margin-top: 50px;
-  }
-  .cardContainer {
-    margin-bottom: 15px;
-  }
-  .card {
-    margin: 0 auto;
-  }
-  .signUp form {
-    margin: 35px auto;
-    background-color: #f2f2f2;
-    padding: 25px;
-    border-radius: 7px;
-  }
-  .cardContainer {
-    margin-bottom: 15px;
-    border: 1px solid green;
-  }
+body{
+  background-color: whitesmoke;
+}
+.jumbotron{
+background-image: url(../images/gettyimages-1364531717-612x612.jpg);
+background-size: cover;
+height: 100%;}
+.jumbotron .container {
+  position:relative;
+  top:50px;
+}
   
-  .img1{
-    height: 70%;
-    width: 50%;
-  }
+
+.nav-item{
+  background-color: aqua;
+}
+
+#about h2 {
+  margin-bottom: 0.7rem;
+  text-align: center;
+
+}
+
+#about p {
+  line-height: 1.7rem;
+  padding: 0.3rem 0;
+}
+
+
+#projects h2 {
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+#projects p {
+  line-height: 1.7rem;
+  padding: 0.3rem 0;
+}
+
+#skills h2 {
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+#skills p {
+  line-height: 1.7rem;
+  padding: 0.3rem 0;
+}
+
+#contact h2 {
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+#contact p {
+  line-height: 1.7rem;
+  padding: 0.3rem 0;
+}
+
+.skills, .about, .contact, .resume, .avatar-wrapper {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.contacts > li {
+  display: inline-block;
+  gap: 50rem;
+  list-style-type: none;
+  margin: 0 20px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.contacts > li > a {
+  font-weight: var(--bold-font);
+}
